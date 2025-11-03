@@ -153,7 +153,7 @@ public class Lab10_Tester {
     } catch (Exception e) {}
     assertEquals(expected, result.toString());
   }
-/* 
+
   @Test
   public void test9() {
     System.out.println("process missing file");
@@ -172,6 +172,7 @@ public class Lab10_Tester {
     assertEquals(expected, result.toString());
     System.setIn(sysInBackup); // optionally, reset System.in to its original
   }
+  
 
   @Test
   public void test10() {
@@ -194,7 +195,7 @@ public class Lab10_Tester {
     }
     assertEquals("EmptyFileException: empty.txt was empty", result);
   }
-
+  
     @Test
   public void test11() {
     System.out.println("test main valid number choice 1 with stopword");
@@ -245,6 +246,8 @@ public class Lab10_Tester {
     String expected = "Found 5 words.";
     assertEquals(expected, result);
   }
+
+  
 
   @Test
   public void test12() {
@@ -345,6 +348,7 @@ public class Lab10_Tester {
 
     String expected = "TooSmallText: Only found 0 words.";
     assertEquals(expected, result);
+    
   }
 
   @Test
@@ -397,7 +401,7 @@ public class Lab10_Tester {
     String expected = "TooSmallText: Only found 2 words.";
     assertEquals(expected, result);
   }
-    */
+    
 
 
 }
