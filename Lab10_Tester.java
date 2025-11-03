@@ -73,7 +73,7 @@ public class Lab10_Tester {
     } catch (Exception e) {}
     assertEquals(expected, result);
   }
-  /*
+  
 
   @Test
   public void test4() {
@@ -88,6 +88,7 @@ public class Lab10_Tester {
     } catch (Exception e) {}
     assertEquals(expected, result);
   }
+  
 
   @Test
   public void test5() {
@@ -103,6 +104,8 @@ public class Lab10_Tester {
     assertEquals(expected, result);
   }
 
+  
+
   @Test
   public void test6() {
     System.out.println("process short text with found stopword");
@@ -117,6 +120,8 @@ public class Lab10_Tester {
     assertEquals(expected, result);
   }
 
+  
+
   @Test
   public void test7() {
     System.out.println("process easy long text with end stopword");
@@ -128,7 +133,7 @@ public class Lab10_Tester {
     } catch (Exception e) {}
     assertEquals(expected, result);
   }
-
+ 
   @Test
   public void test8() {
     System.out.println("process found file");
@@ -148,7 +153,7 @@ public class Lab10_Tester {
     } catch (Exception e) {}
     assertEquals(expected, result.toString());
   }
-
+/* 
   @Test
   public void test9() {
     System.out.println("process missing file");
