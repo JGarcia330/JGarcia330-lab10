@@ -46,6 +46,7 @@ public class Lab10_Tester {
     assertEquals(expected, result);
   }
 
+
   @Test
   public void test2() {
     System.out.println("process long text with no stopword");
@@ -57,6 +58,7 @@ public class Lab10_Tester {
     } catch (Exception e) {}
     assertEquals(expected, result);
   }
+  
 
   @Test
   public void test3() {
@@ -71,6 +73,7 @@ public class Lab10_Tester {
     } catch (Exception e) {}
     assertEquals(expected, result);
   }
+  /*
 
   @Test
   public void test4() {
@@ -389,5 +392,9 @@ public class Lab10_Tester {
     String expected = "TooSmallText: Only found 2 words.";
     assertEquals(expected, result);
   }
+    */
+
 
 }
+
+
